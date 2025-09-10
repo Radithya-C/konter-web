@@ -1,0 +1,130 @@
+html, body, header {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(14deg,#000000 ,#000000) ;
+}
+
+.Navbar {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 6vh;
+    background: linear-gradient(1deg, #000000, #000000) ;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 3px 5px 5px (black);
+}
+
+button {
+  background-color: #000000;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+}
+.profil {
+  text-align: center;
+  background-color: #000000;
+  scale: 1000px;
+}
+
+ul, li {
+    list-style: none;
+    display: flex;
+    padding: 1em;
+    margin: 0;
+    font-style: none;
+}
+
+a {
+    color: aliceblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   text-decoration: none;
+}
+
+li {
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    margin: 0.5em;
+    padding: 10px 15px;
+    color: aqua;
+    border: 20px;
+}
+
+li:hover {
+    background-color: #b10606;
+    box-shadow: 2px 2px 5px (black);
+    padding: 1px;
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+.hero {
+  text-align: center;
+  padding: 2rem;
+  background: linear-gradient(12deg, #000000, #3d0505);
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  color: aliceblue;
+}
+
+.isi  {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+  color: #ffffff;
+}
+
+.case-card {
+  background-color: rgb(49, 6, 6);
+  border: 2px solid #ff0000;
+  border-radius: 8px;
+  width: 500px;
+  padding: 2rem;
+  text-align: left;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.case-card img {
+  width: 100%;
+  border-radius: 4px;
+  background-color: #000000;
+  transition-property: scale , transform;
+  transition-duration: 200ms;
+}
+
+.case-card:hover {
+  transform: scaleX(1.1) scaleY(1.1) scaleZ(1.1);
+  -o-transition: scaleX(1.1) scaleY(1.1) scaleZ(1.1);
+  transition: 1.0s;
+  box-shadow: #ff0000 -5px -2px 30px ;
+  margin: 3px;
+  background-color: #b80000;
+}
+
+button:hover {
+  background-color: #ff0000;
+  color: rgb(0, 0, 0);
+  box-shadow: #1a0101 -5px -2px 30px;
+  border: #990404 2px;
+}
+
+.case-card {
+  opacity: 0;
+  transform: translateY(40px);
+  filter: blur(6px);
+  transition: all 0.8s ease-out;
+}
+
+.case-card.visible {
+  opacity: 1;
+  transform: translateY(0);
+  filter: blur(0);
+}
