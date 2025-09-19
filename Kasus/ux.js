@@ -5,7 +5,7 @@ window.addEventListener('load', () => {
   logoImg.style.transform = 'translateY(0)';
 });
 
-// Data kasus misteri
+//kasus card
 const cases = [
   {
     title: "Junko Furuta",
@@ -999,6 +999,213 @@ const cases = [
     </a>
   `
 },
+{
+  title: "Ed Gein",
+  subtitle: "Amerika Serikat, 1947–1957 — Menguliti mayat dan membuat kerajinan dari tubuh manusia.",
+  image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO2LRMDFAYMVen4y3dkO-LVWTtrWcrhDECeQ&s",
+  content: `
+    <h3>🧠 Profil Pelaku</h3>
+    <p>Edward Theodore Gein, dikenal sebagai “The Butcher of Plainfield,” adalah pembunuh berantai dan pencuri mayat asal Wisconsin. Ia hidup terisolasi dan sangat terpengaruh oleh ibunya yang religius dan dominan.</p>
+
+    <h3>🔪 Modus dan Korban</h3>
+    <ul>
+      <li>Gein hanya divonis atas dua pembunuhan: Mary Hogan (1954) dan Bernice Worden (1957).</li>
+      <li>Setelah ditangkap, polisi menemukan rumahnya penuh dengan potongan tubuh manusia: topeng dari kulit wajah, mangkuk dari tengkorak, dan bahkan pakaian dari kulit manusia.</li>
+      <li>Ia juga mengaku sering membongkar kuburan dan mengambil mayat wanita yang mirip ibunya.</li>
+    </ul>
+
+    <h3>🧠 Kondisi Mental dan Hukuman</h3>
+    <ul>
+      <li>Gein dinyatakan mengalami gangguan jiwa dan tidak layak diadili pada awalnya.</li>
+      <li>Pada 1968, ia dinyatakan cukup sehat untuk diadili dan dinyatakan bersalah atas pembunuhan Worden.</li>
+      <li>Namun, ia tetap dikirim ke rumah sakit jiwa dan meninggal di sana pada 1984 karena kanker.</li>
+    </ul>
+
+    <h3>🎥 Dampak Budaya</h3>
+    <ul>
+      <li>Kasus Gein menginspirasi karakter fiksi seperti Norman Bates (*Psycho*), Leatherface (*Texas Chainsaw Massacre*), dan Buffalo Bill (*Silence of the Lambs*).</li>
+      <li>Ia jadi simbol horor psikologis dan obsesi terhadap tubuh manusia dalam budaya pop.</li>
+    </ul>
+
+    <a href="https://id.wikipedia.org/wiki/Ed_Gein" target="_blank" class="external-btn">
+      🔗 Baca detail lengkap di Wikipedia
+    </a>
+  `
+},
+{
+  title: "Charles Edmund Cullen",
+  subtitle: "Amerika Serikat, 1988–2003 — Perawat yang membunuh lebih dari 40 pasien secara diam-diam.",
+  image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYIRd819GdWqQsoGjhHQt-1ugbOLxYLr6epw&s",
+  content: `
+    <h3>🧠 Profil Pelaku</h3>
+    <p>Charles Cullen adalah perawat asal New Jersey yang bekerja di lebih dari 9 rumah sakit. Ia tampak tenang dan profesional, tapi diam-diam membunuh pasien dengan menyuntikkan obat mematikan seperti digoxin dan insulin.</p>
+
+    <h3>🔪 Modus dan Korban</h3>
+    <ul>
+      <li>Korban utamanya adalah pasien lansia dan kritis yang sedang dirawat intensif.</li>
+      <li>Ia menyuntikkan dosis obat yang mematikan ke IV atau langsung ke tubuh pasien.</li>
+      <li>Motifnya kabur—kadang ia mengaku ingin “mengakhiri penderitaan,” tapi banyak korban tidak dalam kondisi terminal.</li>
+      <li>Diperkirakan membunuh lebih dari 40 orang, tapi beberapa ahli percaya jumlahnya bisa mencapai 300.</li>
+    </ul>
+
+    <h3>⚖️ Penangkapan dan Hukuman</h3>
+    <ul>
+      <li>Ditangkap pada 2003 setelah penyelidikan internal rumah sakit menemukan pola kematian mencurigakan.</li>
+      <li>Mengaku bersalah atas 29 pembunuhan dan dijatuhi hukuman penjara seumur hidup tanpa pembebasan bersyarat.</li>
+      <li>Kasusnya memicu reformasi besar dalam sistem pelaporan rumah sakit dan pengawasan tenaga medis.</li>
+    </ul>
+
+    <h3>🎥 Dampak Budaya</h3>
+    <ul>
+      <li>Diangkat dalam film Netflix <em>The Good Nurse</em> (2022) yang dibintangi Eddie Redmayne dan Jessica Chastain.</li>
+      <li>Kasus ini jadi simbol pengkhianatan profesi dan bahaya sistem medis yang tidak transparan.</li>
+    </ul>
+
+    <a href="https://www.noice.id/info-terbaru/kasus-pembunuh-berantai-dunia-paling-sadis-selain-jack-the-ripper/" target="_blank" class="external-btn">
+      🔗 Baca detail lengkap di Noice
+    </a>
+  `
+},
+{
+  title: "Alexander Pichushkin",
+  subtitle: "Rusia, 1992–2006 — Membunuh 49 orang demi mengisi papan catur.",
+  image: "https://www.reuters.com/resizer/v2/PYQNI6VVEVLZPDQL6KQDSETTLU.jpg?auth=2d8e4d6896dce1e78fcadf33d193aa53900ddae56a52556e1472e2e2b9b804d5&width=1424&quality=80",
+    content: `
+    <h3>🧠 Profil Pelaku</h3>
+    <p>Alexander Pichushkin adalah pria asal Moskow yang dijuluki “The Chessboard Killer.” Ia punya obsesi untuk membunuh sebanyak 64 orang—jumlah kotak di papan catur. Ia menganggap pembunuhan sebagai bentuk kekuasaan dan pembuktian diri.</p>
+
+    <h3>🔪 Modus dan Korban</h3>
+    <ul>
+      <li>Korban utamanya adalah pria tunawisma atau lansia yang diajak minum vodka di taman.</li>
+      <li>Setelah mabuk, korban dipukul dengan palu di kepala, lalu dimasukkan botol vodka ke dalam tengkorak yang retak.</li>
+      <li>Ia mencatat setiap pembunuhan di papan catur pribadinya, satu kotak untuk satu korban.</li>
+      <li>Beberapa korban dibuang ke saluran air atau taman Bitsevsky Park.</li>
+    </ul>
+
+    <h3>⚖️ Penangkapan dan Hukuman</h3>
+    <ul>
+      <li>Ditangkap pada 2006 setelah korban terakhir ditemukan dengan catatan pribadi milik Pichushkin.</li>
+      <li>Mengaku membunuh 61 orang, tapi hanya 49 yang terbukti secara hukum.</li>
+      <li>Dijatuhi hukuman penjara seumur hidup dan dikurung di sel isolasi.</li>
+    </ul>
+
+    <h3>🩸 Dampak Sosial</h3>
+    <ul>
+      <li>Kasus ini mengguncang Rusia dan memicu diskusi tentang gangguan psikologis ekstrem.</li>
+      <li>Pichushkin jadi simbol pembunuh berantai dengan motif obsesif dan sistemik.</li>
+      <li>Diangkat dalam dokumenter kriminal dan studi psikologi forensik.</li>
+    </ul>
+
+    <a href="https://www.noice.id/info-terbaru/kasus-pembunuh-berantai-dunia-paling-sadis-selain-jack-the-ripper/" target="_blank" class="external-btn">
+      🔗 Baca detail lengkap di Noice
+    </a>
+  `
+},
+{
+  title: "Jack the Ripper",
+  subtitle: "Inggris, 1888 — Pembunuh misterius yang mengincar wanita di Whitechapel.",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6ZhjfpVBBG-eJwmHUYkIRPHad8rsAUrkYnA&s",
+  content: `
+    <h3>🧠 Profil Pelaku</h3>
+    <p>Jack the Ripper adalah nama samaran untuk pembunuh berantai yang beraksi di distrik Whitechapel, London. Identitasnya tidak pernah terungkap, dan kasusnya jadi salah satu misteri kriminal paling terkenal di dunia.</p>
+
+    <h3>🔪 Modus dan Korban</h3>
+    <ul>
+      <li>Korban utamanya adalah wanita pekerja seks yang dibunuh secara brutal.</li>
+      <li>Tubuh korban dimutilasi, organ dalam diambil, dan beberapa korban ditemukan dengan luka yang sangat presisi—seolah dilakukan oleh seseorang dengan pengetahuan anatomi.</li>
+      <li>Surat-surat misterius dikirim ke polisi dan media, mengaku dari “Jack the Ripper.”</li>
+    </ul>
+
+    <h3>🕵️ Penyelidikan dan Teori</h3>
+    <ul>
+      <li>Polisi Inggris melakukan investigasi besar-besaran, tapi tidak pernah menemukan pelakunya.</li>
+      <li>Lebih dari 100 tersangka diajukan, termasuk dokter, bangsawan, dan bahkan artis panggung.</li>
+      <li>Teori konspirasi berkembang: mulai dari ritual Freemason, pembunuhan politik, hingga gangguan mental ekstrem.</li>
+    </ul>
+
+    <h3>🎥 Dampak Budaya</h3>
+    <ul>
+      <li>Kasus ini menginspirasi ratusan buku, film, dan serial—termasuk <em>From Hell</em> dan <em>Ripper Street</em>.</li>
+      <li>Jack the Ripper jadi simbol pembunuh berantai misterius yang tak terjamah hukum.</li>
+      <li>Masih jadi bahan studi forensik dan sejarah kriminal hingga hari ini.</li>
+    </ul>
+
+    <a href="https://www.inews.id/news/internasional/5-kasus-pembunuhan-paling-mengerikan-di-dunia-salah-satunya-ryan-jombang" target="_blank" class="external-btn">
+      🔗 Lihat daftar kasus mengerikan lainnya
+    </a>
+  `
+},
+{
+  title: "Aileen Wuornos",
+  subtitle: "Amerika Serikat, 1989–1990 — Membunuh tujuh pria, mengaku membela diri.",
+  image:"https://m.media-amazon.com/images/M/MV5BYmI0YjgwMDktZjNkOS00MGFlLWJiNzgtMTg3YWI5MzA0Y2VmXkEyXkFqcGc@._V1_.jpg",
+  content: `
+    <h3>🧠 Profil Pelaku</h3>
+    <p>Aileen Wuornos adalah mantan pekerja seks yang membunuh tujuh pria di Florida. Ia mengklaim bahwa semua pembunuhan dilakukan untuk membela diri dari pemerkosaan, tapi bukti di lapangan menunjukkan pola pembunuhan berantai.</p>
+
+    <h3>🔪 Modus dan Korban</h3>
+    <ul>
+      <li>Korban adalah pria yang ia temui saat bekerja di jalanan atau bar.</li>
+      <li>Ia menembak mereka dengan pistol dan mencuri barang-barang mereka.</li>
+      <li>Motifnya kabur: antara pembelaan diri, trauma masa kecil, dan dendam terhadap pria.</li>
+      <li>Beberapa korban ditemukan di hutan atau pinggir jalan dengan luka tembak.</li>
+    </ul>
+
+    <h3>⚖️ Penangkapan dan Hukuman</h3>
+    <ul>
+      <li>Ditangkap pada 1991 setelah temannya bekerja sama dengan polisi.</li>
+      <li>Mengaku bersalah atas tujuh pembunuhan dan dijatuhi hukuman mati.</li>
+      <li>Dieksekusi dengan suntikan mati pada 2002.</li>
+    </ul>
+
+    <h3>🎥 Dampak Budaya</h3>
+    <ul>
+      <li>Diangkat dalam film <em>Monster</em> (2003) yang dibintangi Charlize Theron dan memenangkan Oscar.</li>
+      <li>Kasus ini memicu debat tentang trauma, gender, dan keadilan dalam sistem hukum.</li>
+      <li>Aileen jadi simbol kompleks antara korban dan pelaku dalam dunia kriminal.</li>
+    </ul>
+
+    <a href="https://id.wikipedia.org/wiki/Aileen_Wuornos" target="_blank" class="external-btn">
+      🔗 Baca detail lengkap di Wikipedia
+    </a>
+  `
+},
+{
+  title: "John Wayne Gacy",
+  subtitle: "Amerika Serikat, 1972–1978 — Membunuh 33 anak laki-laki sambil tampil sebagai badut.",
+  image:"https://m.media-amazon.com/images/S/pv-target-images/bb39cb85861e5bcf5febc226e36093055a8d7f3d95531c27701edaa85c82655a._SX1080_FMjpg_.jpg",
+  content: `
+    <h3>🧠 Profil Pelaku</h3>
+    <p>John Wayne Gacy adalah pria asal Chicago yang dikenal sebagai “Killer Clown.” Ia aktif di komunitas, sering tampil sebagai badut bernama Pogo, dan bahkan sempat bertemu dengan tokoh politik. Tapi di balik itu, ia adalah pembunuh berantai yang mengincar anak laki-laki dan remaja pria.</p>
+
+    <h3>🔪 Modus dan Korban</h3>
+    <ul>
+      <li>Korban dipancing dengan tawaran kerja atau hiburan, lalu dibawa ke rumahnya.</li>
+      <li>Ia menyiksa, memperkosa, dan membunuh korban dengan cara dicekik atau disuntik.</li>
+      <li>Sebagian besar jasad korban dikubur di bawah rumahnya, di ruang crawl space.</li>
+      <li>Korban berusia antara 14–21 tahun, banyak dari mereka adalah anak jalanan atau pekerja paruh waktu.</li>
+    </ul>
+
+    <h3>⚖️ Penangkapan dan Hukuman</h3>
+    <ul>
+      <li>Ditangkap pada 1978 setelah penyelidikan hilangnya seorang remaja mengarah ke rumah Gacy.</li>
+      <li>Ditemukan 29 jasad di bawah rumahnya, dan 4 lainnya di sungai.</li>
+      <li>Dijatuhi hukuman mati dan dieksekusi dengan suntikan mati pada 1994.</li>
+    </ul>
+
+    <h3>🎥 Dampak Budaya</h3>
+    <ul>
+      <li>Kasus Gacy menginspirasi karakter horor seperti Pennywise dan jadi simbol “monster bertopeng.”</li>
+      <li>Diangkat dalam dokumenter Netflix <em>Conversations with a Killer: The John Wayne Gacy Tapes</em>.</li>
+      <li>Kasus ini memicu diskusi tentang predator sosial dan pentingnya pengawasan komunitas.</li>
+    </ul>
+
+    <a href="https://www.inilah.com/kasus-pembunuhan-tersadis-di-dunia" target="_blank" class="external-btn">
+      🔗 Baca daftar kasus tersadis lainnya
+    </a>
+  `
+},
+
 ];
 
 // Elemen 
@@ -1065,19 +1272,14 @@ function revealCasesOnScroll() {
 window.addEventListener('scroll', revealCasesOnScroll);
 window.addEventListener('load', revealCasesOnScroll);
 
-// Suara ambient 
-const ambientAudio = document.getElementById('ambient');
-if (ambientAudio) {
-  ambientAudio.play().catch(() => {
-    console.warn("Audio autoplay diblokir oleh browser.");
-  });
-}
-
 // Music
 const music = document.getElementById("bg-music");
 const musicBtn = document.getElementById("music-btn");
 
 let isPlaying = false;
+
+music.volume = 1; 
+music.muted = false;
 
 musicBtn.addEventListener("click", () => {
   if (isPlaying) {
@@ -1088,4 +1290,13 @@ musicBtn.addEventListener("click", () => {
     musicBtn.textContent = "🔇 Stop";
   }
   isPlaying = !isPlaying;
+});
+
+const darkToggle = document.getElementById("dark-toggle");
+
+darkToggle.addEventListener("click", () => {
+  document.body.classList.toggle("dark");
+  darkToggle.textContent = document.body.classList.contains("dark")
+    ? "☀️ Light Mode"
+    : "🌙 Dark Mode";
 });
