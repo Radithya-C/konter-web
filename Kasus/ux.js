@@ -7,7 +7,7 @@ window.addEventListener('load', () => {
 
 //kasus card
 const cases = [
-  {
+{
     title: "Junko Furuta",
     subtitle: "Japan, 1988 — A tragedy that shocked the nation.",
     image: "https://upload.wikimedia.org/wikipedia/en/thumb/1/19/Junko_Furuta.jpg/250px-Junko_Furuta.jpg",
@@ -37,8 +37,8 @@ const cases = [
       <a href="https://en.wikipedia.org/wiki/Murder_of_Junko_Furuta" target="_blank" class="external-btn">
         🔗 Baca Selengkapnya
       </a>
-    `},
-  {
+`},
+{
     title: "Alison Botha",
     subtitle: "South Africa, 1994 — From horror to hope.",
     image: "https://m.media-amazon.com/images/M/MV5BOTQyNjkwMTY1NV5BMl5BanBnXkFtZTgwNDY4OTA5ODE@._V1_.jpg",
@@ -69,8 +69,8 @@ const cases = [
         🔗 Baca Selengkapnya
       </a>
     `
-  },
-   {
+},
+{
   title: "Eric Smith",
   subtitle: "New York, 1993 — The 13-year-old who shocked the nation.",
   image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWOHWe7JGO4eixYDXe0qbDbcmkVHsxwnEtAQ&s",
@@ -1205,7 +1205,6 @@ const cases = [
     </a>
   `
 },
-
 ];
 
 // Elemen 
