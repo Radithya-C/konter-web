@@ -1,130 +1,196 @@
-html, body, header {
-    padding: 0;
-    margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(14deg,#000000 ,#000000) ;
-}
-
-.Navbar {
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-    height: 6vh;
-    background: linear-gradient(1deg, #000000, #000000) ;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    box-shadow: 3px 5px 5px (black);
-}
-
-button {
-  background-color: #000000;
-  padding: 10px;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #013A3A; /* dark teal */
+  color: #F5F5DC; /* beige */
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+/* Logo container di tengah */
+#logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+
+/* Logo image animasi */
+#logo-img {
+  width: 220px;
+  opacity: 0;
+  transform: translateY(-50px);
+  transition: all 1.5s ease;
+}
+
+/* Tagline sebagai link */
+.tagline {
+  font-size: 1rem;
+  font-style: italic;
+  color: #F5F5DC;
+  text-decoration: none;
+  margin-top: 0.5rem;
+}
+
+.tagline:hover {
+  text-decoration: underline;
+  color: #FFD700;
+}
+
+/* Search section */
+.search-section {
+  margin-top: 40px;
   text-align: center;
 }
-.profil {
-  text-align: center;
-  background-color: #000000;
-  scale: 1000px;
+
+#searchInput {
+  padding: 10px;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
 }
 
-ul, li {
-    list-style: none;
-    display: flex;
-    padding: 1em;
-    margin: 0;
-    font-style: none;
-}
-
-a {
-    color: aliceblue;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   text-decoration: none;
-}
-
-li {
-    cursor: pointer;
-    transition: all .5s ease-in-out;
-    margin: 0.5em;
-    padding: 10px 15px;
-    color: aqua;
-    border: 20px;
+#searchResults {
+  margin-top: 10px;
+  list-style: none;
+  padding: 0;
 }
 
 li:hover {
-    background-color: #b10606;
-    box-shadow: 2px 2px 5px (black);
-    padding: 1px;
-    border-width: 1px;
-    border-radius: 10px;
+  text-decoration: underline;
+  color: #FFD700;
 }
 
-.hero {
-  text-align: center;
-  padding: 2rem;
-  background: linear-gradient(12deg, #000000, #3d0505);
-  align-items: center;
-  text-align: center;
-  margin: 0;
-  color: aliceblue;
+/* Detail kasus */
+.mystery-detail {
+  background-color: rgba(245, 245, 220, 0.05);
+  border-left: 4px solid #F5F5DC;
+  padding: 20px;
+  margin: 40px auto;
+  width: 80%;
+  color: #F5F5DC;
+  backdrop-filter: blur(3px);
+  box-shadow: 0 0 10px rgba(245, 245, 220, 0.2);
 }
 
-.isi  {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 2rem;
-  padding: 2rem;
-  color: #ffffff;
+.mystery-detail h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
 }
 
-.case-card {
-  background-color: rgb(49, 6, 6);
-  border: 2px solid #ff0000;
-  border-radius: 8px;
-  width: 500px;
-  padding: 2rem;
-  text-align: left;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    cursor: pointer;
-  transition: all 0.3s ease;
+.subtitle {
+  font-style: italic;
+  color: #CFCFCF;
+  margin-bottom: 20px;
 }
 
-.case-card img {
+.note {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #FFD700;
+}
+
+/* Gambar kasus */
+.case-image {
   width: 100%;
-  border-radius: 4px;
-  background-color: #000000;
-  transition-property: scale , transform;
-  transition-duration: 200ms;
+  max-width: 600px;
+  margin: 20px auto;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(245, 245, 220, 0.3);
 }
 
-.case-card:hover {
-  transform: scaleX(1.1) scaleY(1.1) scaleZ(1.1);
-  -o-transition: scaleX(1.1) scaleY(1.1) scaleZ(1.1);
-  transition: 1.0s;
-  box-shadow: #ff0000 -5px -2px 30px ;
-  margin: 3px;
-  background-color: #b80000;
+/* Wave background */
+.wave-wrapper {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  z-index: -1;
 }
 
-button:hover {
-  background-color: #ff0000;
-  color: rgb(0, 0, 0);
-  box-shadow: #1a0101 -5px -2px 30px;
-  border: #990404 2px;
+.wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  animation: waveMove 20s linear infinite;
 }
 
-.case-card {
-  opacity: 0;
-  transform: translateY(40px);
-  filter: blur(6px);
-  transition: all 0.8s ease-out;
+@keyframes waveMove {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
-.case-card.visible {
-  opacity: 1;
-  transform: translateY(0);
-  filter: blur(0);
+.external-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 18px;
+  background-color: #FFD700;
+  color: #013A3A;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.external-btn:hover {
+  background-color: #e6c200;
+}
+
+.nav-buttons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-btn {
+  padding: 10px 20px;
+  background-color: #FFD700;
+  color: #013A3A;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav-btn:hover {
+  background-color: #e6c200;
+}
+
+#music-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+#music-btn {
+  background-color: #111;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+  transition: 0.3s;
+}
+
+#music-btn:hover {
+  background-color: #333;
 }
