@@ -8,26 +8,20 @@ window.addEventListener('load', () => {
 // Data kasus misteri
 const cases = [
   {
-    title: "Nozomi 176",
-    subtitle: "Japan, 1995 — A high-speed train, a sudden silence.",
-    content: `
-      Pada tanggal 27 November 1995, kereta peluru Nozomi 176 yang melaju dari Hakata menuju Tokyo tiba-tiba berhenti di tengah perjalanan tanpa penjelasan. Penumpang melaporkan suara aneh sebelum sistem komunikasi terputus. Tidak ada korban jiwa, namun penyebab gangguan tersebut tidak pernah diumumkan secara resmi.
-
-      Beberapa teori bermunculan: gangguan elektromagnetik, sabotase, bahkan eksperimen militer rahasia. Pemerintah Jepang menutup laporan investigasi, memicu spekulasi dan konspirasi yang terus berkembang hingga hari ini.
-    `
-  },
-  {
-    title: "Unit 731",
-    subtitle: "Manchuria — Science turned sinister.",
-    content: `
-      Unit militer rahasia Jepang yang melakukan eksperimen biologi kejam terhadap manusia selama Perang Dunia II. Banyak data eksperimen disembunyikan dan tidak pernah dipublikasikan secara resmi.
-    `
-  },
-  {
-  title: "Judul Kasus",
-  subtitle: "Deskripsi singkat atau lokasi + tahun",
-  content: `Penjelasan detail tentang kasus, teori, atau misteri yang mau kamu tampilkan.`
-}
+   title : 'Brandon Swanson',
+subtitle : 'Hilang Tanpa Jejak di Malam Gelap',
+Image : '',
+content : `Pada malam 14 Mei 2008, Brandon Swanson, seorang mahasiswa berusia 19
+ tahun dari Minnesota, Amerika Serikat, mengalami kecelakaan ringan saat mengemudi.
+  Ia menelepon orang tuanya dan mengatakan akan berjalan menuju kota terdekat. Selama 47 menit, 
+  ia berbicara di telepon sambil berjalan di kegelapan. Tiba-tiba, ia berkata "Oh, SHIT" dan panggilan terputus.
+   Sejak saat itu, Brandon tidak pernah ditemukan.
+Pencarian besar-besaran dilakukan, termasuk menggunakan anjing pelacak dan drone, 
+namun tidak ada jejak Brandon yang ditemukan. Lokasi terakhirnya pun membingungkan, karena ia ternyata berada jauh dari
+ tempat yang ia kira. Hingga kini, kasus ini tetap menjadi salah satu misteri hilangnya orang yang paling membingungkan di Amerika.
+Apakah Brandon jatuh ke sungai? Apakah ia bertemu seseorang di jalan? Atau ada sesuatu yang lebih gelap terjadi malam itu? 
+Tidak ada yang tahu. Misteri Brandon Swanson tetap menggantung, menantang logika dan teknologi pencarian modern.`
+  }
 ];
 
 const searchInput = document.getElementById('searchInput');
